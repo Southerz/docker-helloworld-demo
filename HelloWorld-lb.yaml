@@ -23,7 +23,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: helloworld-service-<userid>
+  name: helloworld-service-user29
   namespace: n-lab1
   annotations:
     oci.oraclecloud.com/load-balancer-type: "lb"
