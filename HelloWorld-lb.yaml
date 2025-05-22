@@ -16,7 +16,7 @@ spec:
       containers:
       - name: helloworld
     # enter the path to your image, be sure to include the correct region prefix    
-        image: <region-key>.ocir.io/<tenancy-namespace>/<repo-name>:<tag>
+        image: iad.ocir.io/ocuocictrng29/lab1/oci_webapp:${BUILDRUN_HASH}
         ports:
         - containerPort: 80
       imagePullSecrets:
